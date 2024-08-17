@@ -1,3 +1,13 @@
+## Development plan:
+Call Android system functions through swing,
+such as 
+#### 1 Taking photos
+#### 2 Recording videos
+#### 3 Playing videos
+#### 4 Get location information
+#### 5 Generating notifications
+#### ...
+
 ```
     //This uses the native camera to take pictures.
     public static final String IMAGE_CAPTURE_ANDROID = "ACTION_IMAGE_CAPTURE_ANDROID";
