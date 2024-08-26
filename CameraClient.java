@@ -42,6 +42,7 @@ public class CameraClient {
         JButton locationButton = new JButton("Location");
         JButton playButton = new JButton("Play Video");
         JButton autoCameraButton = new JButton("Auto Camera(5s)");
+        JButton shareMsgButton = new JButton("Share Message");
 
         startButton.addActionListener(e -> {
             sendCommand("action=ACTION_IMAGE_CAPTURE");
@@ -70,6 +71,11 @@ public class CameraClient {
             type = 6;
         });
 
+        shareMsgButton.addActionListener(e -> {
+            sendCommand("action=ACTION_SHARE_MESSAGE&title=Test&body=share message to app");
+            type = 7;
+        });
+
         JPanel panel = new JPanel();
         panel.setLayout(new GridLayout(0, 3)); // 每行3个按钮，行数自动计算
         panel.add(startButton);
@@ -78,6 +84,7 @@ public class CameraClient {
         panel.add(locationButton);
         panel.add(playButton);
         panel.add(autoCameraButton);
+        panel.add(shareMsgButton);
 
         frame.add(panel, BorderLayout.SOUTH);
         frame.setVisible(true);
