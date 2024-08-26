@@ -6,6 +6,7 @@ such as
 #### 3 Playing videos
 #### 4 Get location information
 #### 5 Generating notifications
+#### 6 Share message
 #### ...
 
 ```
@@ -26,4 +27,7 @@ such as
     
     //play video
     public static final String PLAY_VIDEO = "ACTION_PLAY_VIDEO";
+
+    //share message
+    public static final String SHARE_MESSAGE = "ACTION_SHARE_MESSAGE";
 ```
