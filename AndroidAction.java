@@ -13,4 +13,6 @@ public class AndroidAction {
     public static final String GET_LOCATION = "ACTION_GET_LOCATION";
     //play video
     public static final String PLAY_VIDEO = "ACTION_PLAY_VIDEO";
+
+    public static final String SHARE_MESSAGE = "ACTION_SHARE_MESSAGE";
 }
