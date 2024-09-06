@@ -43,6 +43,10 @@ public class CameraClient {
         JButton playButton = new JButton("Play Video");
         JButton autoCameraButton = new JButton("Auto Camera(5s)");
         JButton shareMsgButton = new JButton("Share Message");
+        JButton callPhoneButton = new JButton("Call phone");
+        JButton sendSmsButton = new JButton("Send sms");
+        JButton flashOnButton = new JButton("Flash on");
+        JButton flashOffButton = new JButton("Flash off");
 
         startButton.addActionListener(e -> {
             sendCommand("action=ACTION_IMAGE_CAPTURE");
@@ -76,6 +80,26 @@ public class CameraClient {
             type = 7;
         });
 
+        callPhoneButton.addActionListener(e -> {
+            sendCommand("action=ACTION_CALL_PHONE&to=+1234567890");
+            type = 8;
+        });
+
+        sendSmsButton.addActionListener(e -> {
+            sendCommand("action=ACTION_SEND_SMS&to=+1234567890&body=send msg");
+            type = 9;
+        });
+
+        flashOnButton.addActionListener(e -> {
+            sendCommand("action=ACTION_CAMERA_FLASH&type=1");
+            type = 10;
+        });
+
+        flashOffButton.addActionListener(e -> {
+            sendCommand("action=ACTION_CAMERA_FLASH&type=0");
+            type = 11;
+        });
+
         JPanel panel = new JPanel();
         panel.setLayout(new GridLayout(0, 3)); // 每行3个按钮，行数自动计算
         panel.add(startButton);
@@ -85,6 +109,10 @@ public class CameraClient {
         panel.add(playButton);
         panel.add(autoCameraButton);
         panel.add(shareMsgButton);
+        panel.add(callPhoneButton);
+        panel.add(sendSmsButton);
+        panel.add(flashOnButton);
+        panel.add(flashOffButton);
 
         frame.add(panel, BorderLayout.SOUTH);
         frame.setVisible(true);
