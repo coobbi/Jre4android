@@ -15,4 +15,10 @@ public class AndroidAction {
     public static final String PLAY_VIDEO = "ACTION_PLAY_VIDEO";
 
     public static final String SHARE_MESSAGE = "ACTION_SHARE_MESSAGE";
+
+    public static final String CALL_PHONE = "ACTION_CALL_PHONE";
+
+    public static final String SEND_SMS = "ACTION_SEND_SMS";
+
+    public static final String CAMERA_FLASH = "ACTION_CAMERA_FLASH";
 }
