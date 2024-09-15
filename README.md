@@ -57,3 +57,5 @@ such as
 
     public static final String CAMERA_FLASH = "ACTION_CAMERA_FLASH";
 ```
+
+[Demo](https://github.com/coobbi/Jre4android/releases/tag/pre_free_release_0.9.2)
