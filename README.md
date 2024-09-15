@@ -1,4 +1,16 @@
+[Google play](https://play.google.com/store/apps/details?id=com.coobbi.jre)
 
+The Java Runtime Environment for android(Jre4Android) used to execute Java programs. It can run jar(include java swing gui) and class files.
+
+This app can open jar and run jar file (Java version is 17)
+
+The effect of this app is the same as the command below:
+
+```
+   java -jar xxx.jar
+```
+
+How to distinguish jvm is jre4android environment？
 ```
    String value = System.getProperty("jre.vendor"); //return Android-Coobbi
 ```
