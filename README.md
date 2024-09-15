@@ -1,3 +1,8 @@
+
+```
+   String value = System.getProperty("jre.vendor"); //return Android-Coobbi
+```
+
 ## Development plan:
 Call Android system functions through swing,
 such as 
