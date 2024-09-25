@@ -61,5 +61,6 @@ such as
 [Demo](https://github.com/coobbi/Jre4android/releases/tag/pre_free_release_0.9.2)
 
 ## Test and verify the supported jar
-[logisim-evolution-3.8.0-all.jar](https://github.com/logisim-evolution/logisim-evolution/releases/download/v3.8.0/logisim-evolution-3.8.0-all.jar)
+[logisim-evolution-3.8.0-all.jar: https://github.com/logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution/releases/download/v3.8.0/logisim-evolution-3.8.0-all.jar)
 
+[TecnoTV: https://github.com/aayes89/TecnoTV](https://github.com/aayes89/TecnoTV/releases/download/v0.0.5/TecnoTVLF.jar)
