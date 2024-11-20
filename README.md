@@ -15,6 +15,21 @@ How to distinguish jvm is jre4android environment？
    String value = System.getProperty("jre.vendor"); //return Android-Coobbi
 ```
 
+### ClassPath
+The default storage path for files added in the classpath of the settings page is:
+
+Jre4Android: 
+```
+activity.getCacheDir()/classpath/
+```
+
+Jre4Android Pro: 
+```
+activity.getFilesDir()/classpath/
+activity.getExternalFilesDir(null)/classpath/
+```
+
+
 ## Support and Unsupport
 Jre4Android can run jar files with main methods, including command mode and gui mode (implemented by java swing). 
 It does not support programs with attached .so files. 
