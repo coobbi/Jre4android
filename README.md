@@ -67,6 +67,12 @@ This is a simple swing program.
 #### logisim-evolution
 [logisim-evolution-3.8.0-all.jar](https://github.com/logisim-evolution/logisim-evolution/releases/download/v3.8.0/logisim-evolution-3.8.0-all.jar)
 
+## 💼 About the Developer
+
+Hi! I'm the developer of **Jre4Android**.  
+Currently, I am open to **part-time / freelance opportunities** in Android, Java, and Rust development.  
+
+📧 Contact: imzine.com@gmail.com 
 
 ## ☕ Support the Developer
 
